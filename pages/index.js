@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import CTA from '../components/CTA'
 import Hero from '../components/Hero'
+import MeetTeam from '../components/MeetTeam'
 import SubHero from '../components/SubHero'
 
 export default function Home() {
@@ -18,6 +19,7 @@ export default function Home() {
 
       <SubHero />
       <CTA />
+      <MeetTeam />
       
     </div>
   )
