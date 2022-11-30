@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import BuyConfidence from '../components/BuyConfidence'
 import CTA from '../components/CTA'
 import GetStartedCTA from '../components/GetStartedCTA'
 import Hero from '../components/Hero'
@@ -24,6 +25,7 @@ export default function Home() {
       <MeetTeam />
       <MeetBoard />
       <GetStartedCTA />
+      <BuyConfidence />
       
     </div>
   )
