@@ -1,14 +1,14 @@
 import Image from 'next/image'
 import PetLogoImage from '../public/Footer/PetLogoImage.webp'
 import FavoriteIcon from '@mui/icons-material/Favorite';
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-// import {
-// solid,
-// regular,
-// brands,
-// icon,
-// duotone
-// } from '@fortawesome/fontawesome-svg-core/import.macro'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import {
+solid,
+regular,
+brands,
+icon,
+duotone
+} from '@fortawesome/fontawesome-svg-core/import.macro'
 
 function Footer() {
     let date = new Date().getFullYear();
@@ -59,7 +59,7 @@ function Footer() {
                 <p>© Copyright 2021-{date} petcoin.love</p>
                 <FavoriteIcon className='text-red-500' fontSize='small' />
             </div>
-            {/* <div className='flex gap-2'>
+            <div className='flex gap-2'>
                 <div className='bg-blue-600 rounded-full w-9 h-9 flex items-center justify-center'>
                     <i class="fa-brands fa-facebook-f fa-2x"></i>            
                 </div>
@@ -75,7 +75,7 @@ function Footer() {
                 <div className=' text-blue-400 bg-white rounded-full  w-9 h-9 flex items-center justify-center '>
                     <i class="fa-brands fa-telegram fa-2x"></i>
                 </div>
-            </div> */}
+            </div>
         </div>
 
         
