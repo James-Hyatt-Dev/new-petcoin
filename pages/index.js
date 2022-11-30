@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Hero from '../components/Hero'
+import SubHero from '../components/SubHero'
 
 export default function Home() {
   return (
@@ -13,6 +14,8 @@ export default function Home() {
       <main>
         <Hero />
       </main>
+
+      <SubHero />
       
     </div>
   )
