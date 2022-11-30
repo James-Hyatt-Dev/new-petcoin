@@ -5,6 +5,7 @@ import GetStartedCTA from '../components/GetStartedCTA'
 import Hero from '../components/Hero'
 import MeetBoard from '../components/MeetBoard'
 import MeetTeam from '../components/MeetTeam'
+import Roadmap from '../components/Roadmap'
 import SubHero from '../components/SubHero'
 
 export default function Home() {
@@ -26,6 +27,7 @@ export default function Home() {
       <MeetBoard />
       <GetStartedCTA />
       <BuyConfidence />
+      <Roadmap />
       
     </div>
   )
