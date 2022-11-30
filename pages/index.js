@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import CTA from '../components/CTA'
+import GetStartedCTA from '../components/GetStartedCTA'
 import Hero from '../components/Hero'
 import MeetBoard from '../components/MeetBoard'
 import MeetTeam from '../components/MeetTeam'
@@ -22,6 +23,7 @@ export default function Home() {
       <CTA />
       <MeetTeam />
       <MeetBoard />
+      <GetStartedCTA />
       
     </div>
   )
