@@ -1,14 +1,11 @@
 import Image from 'next/image'
 import PetLogoImage from '../public/Footer/PetLogoImage.webp'
 import FavoriteIcon from '@mui/icons-material/Favorite';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {
-solid,
-regular,
-brands,
-icon,
-duotone
-} from '@fortawesome/fontawesome-svg-core/import.macro'
+import Facebook from '../public/Icons/Facebook.png'
+import Twitter from '../public/Icons/Twitter.png'
+import Instagram from '../public/Icons/Instagram.png'
+import Discord from '../public/Icons/Discord.png'
+import Telegram from '../public/Icons/Telegram.png'
 
 function Footer() {
     let date = new Date().getFullYear();
@@ -59,21 +56,21 @@ function Footer() {
                 <p>© Copyright 2021-{date} petcoin.love</p>
                 <FavoriteIcon className='text-red-500' fontSize='small' />
             </div>
-            <div className='flex gap-2'>
-                <div className='bg-blue-600 rounded-full w-9 h-9 flex items-center justify-center'>
-                    <i class="fa-brands fa-facebook-f fa-2x"></i>            
+            <div className='flex gap-2 items-center grayscale'>
+                <div className="">
+                    <Image src={Facebook} alt='facebook icon in blue' />
                 </div>
-                <div className='bg-blue-400 rounded-full w-9 h-9 flex items-center justify-center'>
-                    <i class="fa-brands fa-twitter fa-2x"></i>            
+                <div className="">
+                    <Image src={Twitter} alt='facebook icon in blue' />
                 </div>
-                <div className='rounded-full bg-rose-600 w-9 h-9 flex items-center justify-center'>
-                    <i class="fa-brands fa-instagram fa-2x"></i>
+                <div className="">
+                    <Image src={Instagram} alt='facebook icon in blue' />
                 </div>
-                <div className='bg-blue-500 rounded-full w-9 h-9 flex items-center justify-center'>
-                    <i class="fa-brands fa-discord fa-2x"></i>
+                <div className="">
+                    <Image width={44} height={44} src={Discord} alt='facebook icon in blue' />
                 </div>
-                <div className=' text-blue-400 bg-white rounded-full  w-9 h-9 flex items-center justify-center '>
-                    <i class="fa-brands fa-telegram fa-2x"></i>
+                <div className="">
+                    <Image width={36} h={36} src={Telegram} alt='facebook icon in blue' />
                 </div>
             </div>
         </div>
