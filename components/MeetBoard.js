@@ -20,7 +20,7 @@ function MeetBoard() {
         <div className="sm:grid-cols-2 sm:grid lg:grid-cols-3">
         {/* john allison */}
             <div className="w-full flex items-center sm:flex-col">
-                <div className="w-2/3 pl-4 py-4 z-0 sm:w-full sm:justify-center sm:flex">
+                <div className="w-2/3 pl-4 py-4  sm:w-full sm:justify-center sm:flex">
                     <div className="w-[200px] h-[200px] relative lg:w-[300px] lg:h-[300px] xl:w-[400px] xl:h-[400px]">
                         <div className="py-4 ">
                             <Image className='rounded-xl object-top' src={BenChancey} alt='co founder john allison image' layout='fill' objectFit='cover' />
@@ -36,7 +36,7 @@ function MeetBoard() {
 
             {/* rich hudec */}
             <div className="w-full flex items-center sm:flex-col">
-                <div className="w-2/3 pl-4 py-4 z-0 sm:w-full sm:justify-center sm:flex">
+                <div className="w-2/3 pl-4 py-4  sm:w-full sm:justify-center sm:flex">
                     <div className="w-[200px] h-[200px] relative lg:w-[300px] lg:h-[300px] xl:w-[400px] xl:h-[400px] ">
                         <div className="py-4 ">
                             <Image className='rounded-xl object-top' src={RickHendrix} alt='co founder john allison image' layout='fill' objectFit='cover' />
@@ -52,7 +52,7 @@ function MeetBoard() {
        
         {/* lisa hudec */}
             <div className="w-full flex items-center sm:flex-col">
-                <div className="w-2/3 pl-4 py-4 z-0 sm:w-full sm:justify-center sm:flex">
+                <div className="w-2/3 pl-4 py-4  sm:w-full sm:justify-center sm:flex">
                     <div className="w-[200px] h-[200px] relative lg:w-[300px] lg:h-[300px] xl:w-[400px] xl:h-[400px] ">
                         <div className="py-4 ">
                             <Image className='rounded-xl object-top' src={JeffKafka} alt='co founder john allison image' layout='fill' objectFit='cover' />
@@ -67,7 +67,7 @@ function MeetBoard() {
             </div>
             {/* vito roppo */}
             <div className="w-full flex items-center sm:flex-col">
-                <div className="w-2/3 pl-4 py-4 z-0 sm:w-full sm:justify-center sm:flex">
+                <div className="w-2/3 pl-4 py-4  sm:w-full sm:justify-center sm:flex">
                     <div className="w-[200px] h-[200px] relative lg:w-[300px] lg:h-[300px] xl:w-[400px] xl:h-[400px] ">
                         <div className="py-4 ">
                             <Image className='rounded-xl object-top' src={StuRedsun} alt='co founder john allison image' layout='fill' objectFit='cover' />
@@ -83,7 +83,7 @@ function MeetBoard() {
         
         {/* justin henderson */}
             <div className="w-full flex items-center sm:flex-col">
-                <div className="w-2/3 pl-4 py-4 z-0 sm:w-full sm:justify-center sm:flex">
+                <div className="w-2/3 pl-4 py-4  sm:w-full sm:justify-center sm:flex">
                     <div className="w-[200px] h-[200px] relative lg:w-[300px] lg:h-[300px] xl:w-[400px] xl:h-[400px] ">
                         <div className="py-4 ">
                             <Image className='rounded-xl object-top' src={AnthonyReeves} alt='co founder john allison image' layout='fill' objectFit='cover' />
@@ -98,7 +98,7 @@ function MeetBoard() {
             </div>
             {/* davin young */}
             <div className="w-full flex items-center sm:flex-col">
-                <div className="w-2/3 pl-4 py-4 z-0 sm:w-full sm:justify-center sm:flex">
+                <div className="w-2/3 pl-4 py-4  sm:w-full sm:justify-center sm:flex">
                     <div className="w-[200px] h-[200px] relative lg:w-[300px] lg:h-[300px] xl:w-[400px] xl:h-[400px] ">
                         <div className="py-4 ">
                             <Image className='rounded-xl object-top' src={JamesRigney} alt='co founder john allison image' layout='fill' objectFit='cover' />
@@ -113,7 +113,7 @@ function MeetBoard() {
             </div>
 
             <div className="w-full flex items-center sm:flex-col">
-                <div className="w-2/3 pl-4 py-4 z-0 sm:w-full sm:justify-center sm:flex">
+                <div className="w-2/3 pl-4 py-4  sm:w-full sm:justify-center sm:flex">
                     <div className="w-[200px] h-[200px] relative lg:w-[300px] lg:h-[300px] xl:w-[400px] xl:h-[400px] ">
                         <div className="py-4 ">
                             <Image className='rounded-xl object-top' src={JohnGoede} alt='co founder john allison image' layout='fill' objectFit='cover' />
@@ -128,7 +128,7 @@ function MeetBoard() {
             </div>
             {/* davin young */}
             <div className="w-full flex items-center sm:flex-col">
-                <div className="w-2/3 pl-4 py-4 z-0 sm:w-full sm:justify-center sm:flex">
+                <div className="w-2/3 pl-4 py-4  sm:w-full sm:justify-center sm:flex">
                     <div className="w-[200px] h-[200px] relative lg:w-[300px] lg:h-[300px] xl:w-[400px] xl:h-[400px] ">
                         <div className="py-4 ">
                             <Image className='rounded-xl object-top' src={TonyWyllie} alt='co founder john allison image' layout='fill' objectFit='cover' />

@@ -18,7 +18,7 @@ function MeetTeam() {
         <div className="sm:grid-cols-2 sm:grid lg:grid-cols-3">
         {/* john allison */}
             <div className="w-full flex items-center sm:flex-col">
-                <div className="w-2/3 pl-4 py-4 z-0 sm:w-full sm:justify-center sm:flex">
+                <div className="w-2/3 pl-4 py-4  sm:w-full sm:justify-center sm:flex">
                     <div className="w-[200px] h-[200px] relative lg:w-[300px] lg:h-[300px] xl:w-[400px] xl:h-[400px]">
                         <div className="py-4 ">
                             <Image className='rounded-xl object-top' src={JohnAllison} alt='co founder john allison image' layout='fill' objectFit='cover' />
@@ -34,7 +34,7 @@ function MeetTeam() {
 
             {/* rich hudec */}
             <div className="w-full flex items-center sm:flex-col">
-                <div className="w-2/3 pl-4 py-4 z-0 sm:w-full sm:justify-center sm:flex">
+                <div className="w-2/3 pl-4 py-4  sm:w-full sm:justify-center sm:flex">
                     <div className="w-[200px] h-[200px] relative lg:w-[300px] lg:h-[300px] xl:w-[400px] xl:h-[400px] ">
                         <div className="py-4 ">
                             <Image className='rounded-xl object-top' src={RichHudec} alt='co founder john allison image' layout='fill' objectFit='cover' />
@@ -50,7 +50,7 @@ function MeetTeam() {
        
         {/* lisa hudec */}
             <div className="w-full flex items-center sm:flex-col">
-                <div className="w-2/3 pl-4 py-4 z-0 sm:w-full sm:justify-center sm:flex">
+                <div className="w-2/3 pl-4 py-4  sm:w-full sm:justify-center sm:flex">
                     <div className="w-[200px] h-[200px] relative lg:w-[300px] lg:h-[300px] xl:w-[400px] xl:h-[400px] ">
                         <div className="py-4 ">
                             <Image className='rounded-xl object-top' src={LisaHudec} alt='co founder john allison image' layout='fill' objectFit='cover' />
@@ -65,7 +65,7 @@ function MeetTeam() {
             </div>
             {/* vito roppo */}
             <div className="w-full flex items-center sm:flex-col">
-                <div className="w-2/3 pl-4 py-4 z-0 sm:w-full sm:justify-center sm:flex">
+                <div className="w-2/3 pl-4 py-4  sm:w-full sm:justify-center sm:flex">
                     <div className="w-[200px] h-[200px] relative lg:w-[300px] lg:h-[300px] xl:w-[400px] xl:h-[400px] ">
                         <div className="py-4 ">
                             <Image className='rounded-xl object-top' src={VitoRoppo} alt='co founder john allison image' layout='fill' objectFit='cover' />
@@ -81,7 +81,7 @@ function MeetTeam() {
         
         {/* justin henderson */}
             <div className="w-full flex items-center sm:flex-col">
-                <div className="w-2/3 pl-4 py-4 z-0 sm:w-full sm:justify-center sm:flex">
+                <div className="w-2/3 pl-4 py-4  sm:w-full sm:justify-center sm:flex">
                     <div className="w-[200px] h-[200px] relative lg:w-[300px] lg:h-[300px] xl:w-[400px] xl:h-[400px] ">
                         <div className="py-4 ">
                             <Image className='rounded-xl object-top' src={JustinHenderson} alt='co founder john allison image' layout='fill' objectFit='cover' />
@@ -96,7 +96,7 @@ function MeetTeam() {
             </div>
             {/* davin young */}
             <div className="w-full flex items-center sm:flex-col">
-                <div className="w-2/3 pl-4 py-4 z-0 sm:w-full sm:justify-center sm:flex">
+                <div className="w-2/3 pl-4 py-4  sm:w-full sm:justify-center sm:flex">
                     <div className="w-[200px] h-[200px] relative lg:w-[300px] lg:h-[300px] xl:w-[400px] xl:h-[400px] ">
                         <div className="py-4 ">
                             <Image className='rounded-xl object-top' src={DavinYoung} alt='co founder john allison image' layout='fill' objectFit='cover' />
