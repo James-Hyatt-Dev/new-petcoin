@@ -6,7 +6,7 @@ function Hero() {
       <Header />
       <div className=" flex flex-col items-center justify-center my-auto  bg-black bg-opacity-50 w-11/12 mx-auto rounded-xl sm:mt-48 md:max-w-3xl pb-10">
         <h1 className='text-3xl pt-4 text-white font-bold text-center sm:text-4xl lg:text-5xl 2xl:text-6xl'>Crypto with a cause</h1>
-        <h2 className='pb-4 text-lg lg:text-2xl italic pt-2 2xl:text-3xl'>Saving the lives of dogs and cats</h2>
+        <h2 className='pb-4 text-lg lg:text-2xl italic pt-2 2xl:text-3xl'>Saving the lives of cats and dogs</h2>
 
         <iframe
           className='rounded-2xl '
