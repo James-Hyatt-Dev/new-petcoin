@@ -38,10 +38,10 @@ function Header() {
                     <Link href='https://www.petcoin.love/faq'>FAQ</Link>
                 </div>
                 <div className="space-y-2 sm:pr-20 sm:flex-row sm:gap-2 sm:space-y-0 flex flex-col pt-5 pr-4">
-                    <div className="bg-orange-600">
+                    <div className="bg-orange-600 text-white font-semibold">
                         <Button href='https://www.petcoin.love/login' className="text-white px-8">Sign In</Button>
                     </div>
-                    <div className="bg-orange-600">
+                    <div className="bg-orange-600 text-white font-semibold">
                         <Button href='https://www.petcoin.love/signup' className="text-white px-8">Sign Up</Button>
                     </div>
                 </div>
