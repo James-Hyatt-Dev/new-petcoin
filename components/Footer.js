@@ -52,11 +52,11 @@ function Footer() {
 
         {/* copyright */}
         <div className="bg-gray-800 text-xs w-full flex flex-col sm:flex-row items-center gap-2 justify-around pb-24 lg:pb-2 border-t border-gray-500 pt-2">
-            <div className='flex items-center gap-2'>
+            <div className='flex items-center gap-2 '>
                 <p>© Copyright 2021-{date} petcoin.love</p>
                 <FavoriteIcon className='text-red-500' fontSize='small' />
             </div>
-            <div className='flex gap-2 items-center grayscale'>
+            <div className='flex gap-2 items-center grayscale  pr-2'>
                 <div className="">
                     <Image src={Facebook} alt='facebook icon in blue' />
                 </div>
