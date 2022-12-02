@@ -20,10 +20,10 @@ function Header() {
                 </div>
                 <div className="lg:hidden">
                     <div className="bg-gradient-to-r from-orange-700 to-orange-600 rounded-full p-2 fixed bottom-4 left-4 w-12 flex items-center justify-center h-12 border z-40">
-                        <a href="tel:18004888421"><PhoneIphoneIcon /></a>
+                        <a href="tel:18004888421"><PhoneIphoneIcon className="text-white" /></a>
                     </div>
                     <div className="bg-gradient-to-r from-orange-700 to-orange-600 rounded-full p-2 fixed bottom-4 left-20 w-12 flex items-center justify-center h-12 border z-40">
-                        <a href="mailto:info@petcoin.com"><EmailIcon /></a>
+                        <a href="mailto:info@petcoin.com"><EmailIcon className="text-white" /></a>
                     </div>
                 </div>
             </div>
